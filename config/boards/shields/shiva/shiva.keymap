@@ -157,10 +157,10 @@ ZMK_COMBO(hash,     &kp HASH,        3 15,          ALL, COMBO_TERM_COMMON)
 ZMK_COMBO(dllr,     &kp DLLR,        4 16,          ALL, COMBO_TERM_COMMON)
 ZMK_COMBO(prcnt,    &kp PRCNT,       5 17,          ALL, COMBO_TERM_COMMON)
 
-ZMK_COMBO(grave,    &kp GRAVE,      14 25,          ALL, COMBO_TERM_COMMON)
-ZMK_COMBO(bslh,     &kp BSLH,       15 26,          ALL, COMBO_TERM_COMMON)
-ZMK_COMBO(equal,    &kp EQUAL,      16 27,          ALL, COMBO_TERM_COMMON)
-ZMK_COMBO(tilde,    &kp TILDE,      17 28,          ALL, COMBO_TERM_COMMON)
+ZMK_COMBO(grave,    &kp GRAVE,      14 26,          ALL, COMBO_TERM_COMMON)
+ZMK_COMBO(bslh,     &kp BSLH,       15 27,          ALL, COMBO_TERM_COMMON)
+ZMK_COMBO(equal,    &kp EQUAL,      16 28,          ALL, COMBO_TERM_COMMON)
+ZMK_COMBO(tilde,    &kp TILDE,      17 29,          ALL, COMBO_TERM_COMMON)
 
 /* Vertical combos - right hand */
 ZMK_COMBO(caret,    &kp CARET,       6 18,          ALL, COMBO_TERM_COMMON)
