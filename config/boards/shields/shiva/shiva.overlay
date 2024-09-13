@@ -42,6 +42,25 @@
             RC(6,0)         RC(6,1)                 RC(7,2)         RC(7,3)         RC(7,4) RC(6,5)
         >;
     };
+
+    encoder_main: encoder_left {
+        compatible = "alps,ec11";
+        label = "LEFT_ENCODER";
+        a-gpios = <&gpio1  4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        b-gpios = <&gpio1  6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+        steps = <15>;
+        status = "disabled";
+    };
+
+    sensors {
+        compatible = "zmk,keymap-sensors";
+        sensors = <&encoder_main>;
+        triggers-per-rotation = <15>;
+    };
+};
+
+&encoder_main {
+    status = "okay";
 };
 
 / {
