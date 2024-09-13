@@ -15,6 +15,7 @@
 #define BT 5
 
 &lt { flavor = "balanced"; tapping-term-ms = <200>; quick-tap-ms = <200>; require-prior-idle-ms = <200>; };
+&mt { flavor = "balanced"; tapping-term-ms = <200>; quick-tap-ms = <200>; require-prior-idle-ms = <200>; };
 &sk { release-after-ms = <800>; quick-release; };
 &sl { ignore-modifiers; release-after-ms = <10000>; };
 
@@ -68,7 +69,7 @@ ZMK_BEHAVIOR(rbrkbrc, mod_morph, bindings = <&kp RBKT>, <&kp RBRC>; mods = <(MOD
     &kp RBKT         &kp Q     &kp W        &kp E        &kp R      &kp T     &kp Y     &kp U    &kp I      &kp O     &kp P       &kp LBKT
     &lt NAV GRAVE    &kp A     &kp S        &kp D        &kp F      &kp G     &kp H     &kp J    &kp K      &kp L     &kp SEMI    &kp SQT
     &kp LSFT         &kp Z     &kp X        &kp C        &kp V      &kp B     &kp N     &kp M    &kp COMMA  &kp DOT   &slsh_excl  &kp BSLH
-    &kp LCTRL                  &kp LGUI                             &kp SPACE           &smart_shft         &kp RALT  &kp K_CANCEL
+    &kp LCTRL                  &kp LGUI                             &mt LALT SPACE           &smart_shft         &kp RALT  &kp K_CANCEL
             >;
         };
         COLEMAK{
@@ -77,7 +78,7 @@ ZMK_BEHAVIOR(rbrkbrc, mod_morph, bindings = <&kp RBKT>, <&kp RBRC>; mods = <(MOD
     &kp RBKT         &kp Q     &kp W     &kp F        &kp P      &kp B     &kp J     &kp L     &kp U     &kp Y      &kp SEMI    &kp LBKT
     &lt NAV GRAVE    &kp A     &kp R     &kp S        &kp T      &kp G     &kp M     &kp N     &kp E     &kp I      &kp O       &kp SQT
     &kp LSFT         &kp Z     &kp X     &kp C        &kp D      &kp V     &kp K     &kp H     &kp COMMA &kp DOT    &slsh_excl  &kp BSLH
-    &kp LCTRL                  &kp LGUI                          &kp SPACE           &smart_shft         &kp RALT   &kp K_CANCEL
+    &kp LCTRL                  &kp LGUI                          &mt LALT SPACE           &smart_shft         &kp RALT   &kp K_CANCEL
             >;
         };
         NUM{
