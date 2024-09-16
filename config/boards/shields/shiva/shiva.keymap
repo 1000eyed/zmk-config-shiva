@@ -110,7 +110,7 @@ ZMK_BEHAVIOR(alt_rtab_st, mod_morph, bindings = <&kp R>, <&kp LS(TAB)>; mods = <
             bindings = <
     &none        &none     &kp LA(F4) &none      &kp LC(ENTER)  &none     &kp HOME             &kp LC(LEFT)     &kp LC(RIGHT)     &kp END               &none    &none
     &none        &none     &none      &none      &none          &none     &kp LEFT             &kp DOWN         &kp UP            &kp RIGHT             &none    &none
-    &trans       &none     &none      &none      &none          &none     &kp LS(HOME)         &kp LC(LS(LEFT)) &kp LC(LS(RIGHT)) &kp LS(END)           &none
+    &trans       &none     &none      &none      &none          &none     &kp LS(HOME)         &kp LC(LS(LEFT)) &kp LC(LS(RIGHT)) &kp LS(END)           &none    &kp EXCL
     &kp LCTRL              &kp LGUI                             &kp SPACE                      &trans                             &kp RALT              &tog NAV
             >;
         };
@@ -119,7 +119,7 @@ ZMK_BEHAVIOR(alt_rtab_st, mod_morph, bindings = <&kp R>, <&kp LS(TAB)>; mods = <
             bindings = <
     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none     &none    &none     &none     &none    &none   &bt BT_CLR
     &none        &none        &none        &none        &none        &none     &none    &none     &none     &none    &none   &none
-    &none        &none        &none        &none        &none        &none     &none    &none     &none     &none    &none
+    &none        &none        &none        &none        &none        &none     &none    &none     &none     &none    &none   &none
     &none                     &none                                  &none              &none               &none    &none
             >;
         };
