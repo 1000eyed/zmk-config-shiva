@@ -75,7 +75,6 @@ ZMK_BEHAVIOR(alt_rtab_st, mod_morph, bindings = <&kp R>, <&kp LS(TAB)>; mods = <
     &kp LSFT         &kp Z     &kp X        &kp C        &kp V      &kp B     &kp N     &kp M    &kp COMMA  &kp DOT   &slsh_excl  &kp BSLH
     &kp LCTRL                  &kp LGUI                             &mt LALT SPACE           &smart_shft         &kp RALT  &kp K_CANCEL
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         COLEMAK{
             label = "colemak";
@@ -85,7 +84,6 @@ ZMK_BEHAVIOR(alt_rtab_st, mod_morph, bindings = <&kp R>, <&kp LS(TAB)>; mods = <
     &kp LSFT         &kp Z     &kp X     &kp C        &kp D      &kp V     &kp K     &kp H     &kp COMMA &kp DOT    &slsh_excl  &kp BSLH
     &kp LCTRL                  &kp LGUI                          &mt LALT SPACE           &smart_shft         &kp RALT   &kp K_CANCEL
             >;
-            sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
         };
         NUM{
             label = "numbers";
